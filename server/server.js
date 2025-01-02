@@ -9,7 +9,7 @@ require('dotenv').config();
 
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
-const genAI = new GoogleGenerativeAI("AIzaSyAgOaIfjbaVgYNsRKcIAtP1rSu7YltsE_E"); // Use environment variable for API key
+const genAI = new GoogleGenerativeAI("AIzaSyARoIboTqkc9xcIzlk_mjGJsHV9nKpf40U"); // Use environment variable for API key
 
 app.post('/gemini', async (req, res) => {
     try {
